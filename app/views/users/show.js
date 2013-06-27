@@ -6,7 +6,7 @@ module.exports = ReactView.extend({
 
   getTemplateData: function() {
     var data = ReactView.prototype.getTemplateData.call(this);
-    data.repos = this.options.repos ? this.options.repos.toJSON() : [];
+    data.app = this.app;
     return data;
   },
 

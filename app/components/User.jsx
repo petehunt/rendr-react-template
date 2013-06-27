@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 var React = require('../vendor/react/React');
-var UserRepos = require('./UserRepos');
+var LazyUserRepos = require('./LazyUserRepos');
 
 var User = React.createClass({
   render: function() {
@@ -12,7 +12,7 @@ var User = React.createClass({
 
         <div class="row-fluid">
           <div class="span6">
-            <UserRepos repos={this.props.repos} />
+            <LazyUserRepos app={this.props.app} login={this.props.login} />
           </div>
 
           <div class="span6">
