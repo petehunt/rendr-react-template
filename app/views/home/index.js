@@ -1,13 +1,12 @@
 var ReactView = require('../react');
-var _ = require('underscore');
 
 var React = require('../../vendor/react/React');
-var Hello = require('../../components/Hello');
+var Home = require('../../components/Home');
 
 module.exports = ReactView.extend({
   className: 'home_index_view',
   getComponent: function() {
-    return Hello();
+    return Home();
   }
 });
 module.exports.id = 'home/index';
