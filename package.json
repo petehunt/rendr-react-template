@@ -28,7 +28,8 @@
     "grunt-bg-shell": "~2.0.1",
     "nodemon": "~0.7.6",
     "mocha": "~1.9.0",
-    "should": "~1.2.2"
+    "should": "~1.2.2",
+    "grunt-react": "~0.3.0"
   },
   "engines": {
     "node": ">=0.8"
