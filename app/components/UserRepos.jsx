@@ -15,7 +15,7 @@ var UserRepos = React.createClass({
     return (
       <div>
         <h3>Repos</h3>
-        <table class="repos-table table">
+        <table className="repos-table table">
           <thead>
             <tr>
               <th>Name</th>

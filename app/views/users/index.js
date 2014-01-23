@@ -1,5 +1,5 @@
-var ReactView = require('../react');
-var Users = require('../../components/Users');
+var ReactView = require('../react_rendr');
+var Users = require('../../components_js/Users');
 
 module.exports = ReactView.extend({
   className: 'users_index_view',
