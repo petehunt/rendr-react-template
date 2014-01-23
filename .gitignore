@@ -4,6 +4,5 @@ app/templates/compiledTemplates.js
 public/styles.css
 .DS_Store
 npm-debug.log
-app/components/*.js
-app/components/**/*.js
+app/components_js/*.js
 *~

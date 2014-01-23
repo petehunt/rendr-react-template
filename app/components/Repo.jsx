@@ -19,9 +19,9 @@ var Repo = React.createClass({
         {lastBuildIndicator}
         <a href={'/users/' + this.props.owner.login}>{this.props.owner.login}</a> / {this.props.name}<br />
         <h3>Stats</h3>
-        <div class="row-fluid">
-          <div class="span6">
-            <table class="table">
+        <div className="row-fluid">
+          <div className="span6">
+            <table className="table">
               <tbody>
                 <tr>
                   <th>Description</th>

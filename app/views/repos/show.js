@@ -1,5 +1,5 @@
-var ReactView = require('../react');
-var Repo = require('../../components/Repo');
+var ReactView = require('../react_rendr');
+var Repo = require('../../components_js/Repo');
 
 module.exports = ReactView.extend({
   className: 'repos_show_view',

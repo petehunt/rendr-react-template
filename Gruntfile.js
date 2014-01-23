@@ -80,14 +80,17 @@ module.exports = function(grunt) {
     },
 
     react: {
-      app: {
-        options: {
-          extension: 'jsx'
-        },
-        files: {
-          'app/': 'app/'
-        }
-      },
+      dynamic_mappings: {
+        files: [
+          {
+            expand: true,
+            cwd: 'app/components',
+            src: ['**/*.jsx'],
+            dest: 'app/components_js',
+            ext: '.js'
+          }
+        ]
+      }
     },
 
     rendr_stitch: {
